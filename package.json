@@ -1,0 +1,19 @@
+{
+  "name": "silverline",
+  "version": "1.0.0",
+  "description": "Description: Silverline Tutoring is a non-profit organization dedicated to solving the education divide by providing free tutoring to students. We believe that every student has the right receive full attention in their education, and that every tutor can gain more experience as they teach, making our approach to this service beneficial to both tutors and students alike. Our goal is to help every student we can to understand the subjects they don't and master the subjects they do, no matter where they are from.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Silverline-Tutoring-Inc/Silverline-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Silverline-Tutoring-Inc/Silverline-Website/issues"
+  },
+  "homepage": "https://github.com/Silverline-Tutoring-Inc/Silverline-Website#readme"
+}

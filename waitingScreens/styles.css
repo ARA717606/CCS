@@ -1,0 +1,82 @@
+
+html {
+	background: black;
+}
+.logo {
+	width: 250px;
+	border-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 200px;
+	animation: 1s fadeIn;
+}
+.phrase {
+	color: #7f9ac7;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	top: 200px;
+	left: 0px;
+
+	font-weight: 800;
+	animation: 1s fadeIn;
+	font-family: 'DM sans', sans-serif;
+}
+
+.coming-soon {
+	color: #7f9ac7;
+	width: 100%;
+	margin-right: 55%;
+	text-align: center;
+	position: relative;
+	top: 200px;
+	left: 0px;
+	font-weight: 800;
+	animation: 2s fadeIn;
+	font-family: 'DM sans', sans-serif;
+	list-style-type: none;
+
+}
+ul li {
+	display: inline-flex;
+	align-items: flex-start;
+
+	padding-right: 25px;
+}
+
+ul span {
+	color: white;
+	
+}
+.coming-soon1 {
+	color: #7C898B;
+	width: 100%;
+	align-items: center;
+
+	font-weight: 800;
+	animation: 2.5s fadeIn;
+	font-family: 'Poppins', sans-serif;
+}
+.icon {
+	position: relative;
+		top: 200px;
+		left: 0px;
+
+}
+@media only screen and (max-width: 590px){
+	.logo {
+		width: 120px;
+
+	}
+}
+
+@keyframes fadeIn{
+	0% {
+		opacity:0;
+	}
+	100% {
+		opacity:1;
+	}
+}
