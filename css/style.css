@@ -503,11 +503,10 @@ a{
 
 .typewriter2 h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  display: inline-block;
   border-right: .15em solid rgba(255, 255, 255,0.5); /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
+  letter-spacing: .22em; /* Adjust as needed */
   animation: 
     typing 1.5s steps(40,end) 500ms 1 normal both,
     blink-caret .75s step-end infinite;
